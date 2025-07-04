@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar,
+.footer {
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
